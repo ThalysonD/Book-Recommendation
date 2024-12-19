@@ -11,6 +11,7 @@ export function BookCard({ book }: BookCardProps) {
       target="_blank"
       rel="noopener noreferrer"
       className="group block"
+      title={`Comprar ${book.title}`}
     >
       <div className="bg-white dark:bg-gray-800 rounded-lg shadow-lg overflow-hidden transition-transform group-hover:scale-105">
         <div className="aspect-[2/3] relative">
@@ -21,9 +22,15 @@ export function BookCard({ book }: BookCardProps) {
           />
         </div>
         <div className="p-4">
-          <h3 className="text-lg font-semibold text-gray-900 dark:text-gray-100 line-clamp-2">
+          <h3 className="text-lg font-semibold text-gray-900 dark:text-gray-100 mb-1">
             {book.title}
           </h3>
+          <p className="text-sm text-gray-600 dark:text-gray-400 mb-2">
+            {book.author}
+          </p>
+          <p className="text-sm text-gray-500 dark:text-gray-500 line-clamp-3">
+            {book.description}
+          </p>
         </div>
       </div>
     </a>

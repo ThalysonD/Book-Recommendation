@@ -3,4 +3,6 @@ export interface Book {
   link: string;
   semester: number;
   imageUrl: string;
+  author: string;
+  description: string;
 }

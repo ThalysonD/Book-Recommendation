@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { BookCard } from "./components/BookCard";
 import { Footer } from "./components/Footer";
+import { Header } from "./components/Header";
 import { ThemeToggle } from "./components/ThemeToggle";
 import { books } from "./data/books";
 
@@ -20,17 +21,15 @@ function App() {
       <ThemeToggle />
 
       <main className="container mx-auto px-4 py-12 flex-grow">
-        <h1 className="text-4xl font-bold text-center mb-8 text-gray-900 dark:text-white">
-         BSSM Português - Livros
-        </h1>
+        <Header />
 
         <div className="flex flex-wrap justify-center gap-4 mb-8">
           <button
             onClick={() => setSelectedSemester(null)}
-            className={`px-4 py-2 rounded-lg ${
+            className={`px-4 py-2 rounded-lg transition-colors ${
               selectedSemester === null
                 ? "bg-blue-600 text-white"
-                : "bg-gray-200 dark:bg-gray-800 text-gray-700 dark:text-gray-300"
+                : "bg-gray-200 dark:bg-gray-800 text-gray-700 dark:text-gray-300 hover:bg-gray-300 dark:hover:bg-gray-700"
             }`}
           >
             Todos
@@ -39,10 +38,10 @@ function App() {
             <button
               key={semester}
               onClick={() => setSelectedSemester(semester)}
-              className={`px-4 py-2 rounded-lg ${
+              className={`px-4 py-2 rounded-lg transition-colors ${
                 selectedSemester === semester
                   ? "bg-blue-600 text-white"
-                  : "bg-gray-200 dark:bg-gray-800 text-gray-700 dark:text-gray-300"
+                  : "bg-gray-200 dark:bg-gray-800 text-gray-700 dark:text-gray-300 hover:bg-gray-300 dark:hover:bg-gray-700"
               }`}
             >
               {`${semester}º Semestre`}
