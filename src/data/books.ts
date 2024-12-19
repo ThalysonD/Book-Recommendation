@@ -5,7 +5,7 @@ export const books: Book[] = [
     title: "Quando o Céu Invade a Terra",
     author: "Bill Johnson",
     description:
-      "Uma exploração profunda sobre como viver uma vida sobrenatural, trazendo o Reino dos Céus para nossa realidade cotidiana.",
+      "Este livro desafia os cristãos a viver milagres diários, mostrando como Cristo nos ensina a caminhar no sobrenatural e transformando a fé.",
     link: "https://amzn.to/3BQ7C3Y",
     semester: 1,
     imageUrl: "https://m.media-amazon.com/images/I/51e2owKYY6L._SY1000_.jpg",
@@ -14,7 +14,7 @@ export const books: Book[] = [
     title: "Treinamento Básico para o Ministério Profético",
     author: "Kris Vallotton",
     description:
-      "Um guia fundamental para desenvolver e compreender o dom profético, essencial para seu primeiro semestre.",
+      "O dom de profecia não é exclusivo. A Bíblia promete que, nos últimos dias, o Espírito Santo será derramado sobre todos, afetando todos os crentes.",
     link: "https://amzn.to/3BBuzYO",
     semester: 1,
     imageUrl:
@@ -24,7 +24,7 @@ export const books: Book[] = [
     title: "Sentindo o Abraço do Pai",
     author: "Jack Frost",
     description:
-      "Uma jornada transformadora para experimentar o amor incondicional do Pai celestial de maneira mais profunda.",
+      "O Amor de Deus é imensurável e incondicional, sem distinção de idade, cor ou crença. Este livro apresenta formas de aproximação com Deus.",
     link: "https://amzn.to/3DBYCzW",
     semester: 1,
     imageUrl:
@@ -34,7 +34,7 @@ export const books: Book[] = [
     title: "Caminhos Sobrenaturais da Realeza",
     author: "Kris Vallotton",
     description:
-      "Descubra sua identidade real em Cristo e como viver a partir dessa posição de autoridade espiritual.",
+      "Bill Johnson e Kris Vallotton mostram como viver com autoridade, honra e reivindicar sua herança divina.",
     link: "https://amzn.to/3DrDblm",
     semester: 2,
     imageUrl:
@@ -44,7 +44,7 @@ export const books: Book[] = [
     title: "O Poder Sobrenatural do Perdão",
     author: "Kris e Jason Vallotton",
     description:
-      "Uma perspectiva transformadora sobre o poder do perdão como chave para a cura e libertação emocional.",
+      "Jason compartilha sua luta contra a traição e o perdão. Pais e filhos mostram como Deus nos capacita a superar a vingança e alcançar liberdade.",
     link: "https://amzn.to/3VQyQ1d",
     semester: 2,
     imageUrl:
@@ -54,7 +54,7 @@ export const books: Book[] = [
     title: "Guerra Espiritual",
     author: "Kris Vallotton",
     description:
-      "Um manual essencial para compreender e engajar-se efetivamente na guerra espiritual.",
+      "Kris Vallotton revela como identificar e vencer a resistência espiritual, compartilhando sua história de libertação pessoal.",
     link: "https://setemontes.com/products/guerra-espiritual?srsltid=AfmBOooJ4U0IAIGk75piw4KsPMO48SGTLIKpmMdc7UohAHcZ2TeL7KMp",
     semester: 2,
     imageUrl:
@@ -64,7 +64,7 @@ export const books: Book[] = [
     title: "Mantenha o Seu Amor Aceso",
     author: "Danny Silk",
     description:
-      "Princípios práticos para construir e manter relacionamentos saudáveis e duradouros.",
+      "Manter seu amor aceso é algo difícil de fazer. Aprender a manter o seu amor aceso é uma questão inegociável.",
     link: "https://amzn.to/41L3E7o",
     semester: 3,
     imageUrl:
@@ -74,7 +74,7 @@ export const books: Book[] = [
     title: "Fortalecido no Senhor",
     author: "Bill Johnson",
     description:
-      "Aprenda a desenvolver uma força espiritual inabalável através de uma conexão mais profunda com Deus.",
+      "O cristão enfrenta desafios inéditos e precisa se fortalecer no Senhor. Permaneceremos firmes até a vitória e o cumprimento das promessas de Deus.",
     link: "https://amzn.to/4gFQoFp",
     semester: 3,
     imageUrl:

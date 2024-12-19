@@ -13,10 +13,10 @@ export function Header() {
         </h2>
       </div>
       <p className="max-w-2xl mx-auto text-gray-600 dark:text-gray-400">
-        Bem-vindo à biblioteca recomendada da BSSM Português! Aqui você
-        encontrará todos os livros necessários para cada semestre do curso,
-        cuidadosamente selecionados para seu desenvolvimento espiritual e
-        ministerial.
+        Bem-vindo à biblioteca recomendada da BSSM Português! Aqui estão os
+        livros essenciais para cada semestre, escolhidos para seu crescimento
+        espiritual e ministerial. Clique no título para acessar a página de
+        compra.
       </p>
     </div>
   );
