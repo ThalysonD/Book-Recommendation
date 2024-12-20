@@ -26,11 +26,10 @@ function App() {
         <div className="flex flex-wrap justify-center gap-4 mb-8">
           <button
             onClick={() => setSelectedSemester(null)}
-            className={`px-4 py-2 rounded-lg transition-colors ${
-              selectedSemester === null
+            className={`px-4 py-2 rounded-lg transition-colors ${selectedSemester === null
                 ? "bg-blue-600 text-white"
                 : "bg-gray-200 dark:bg-gray-800 text-gray-700 dark:text-gray-300 hover:bg-gray-300 dark:hover:bg-gray-700"
-            }`}
+              }`}
           >
             Todos
           </button>
@@ -38,18 +37,17 @@ function App() {
             <button
               key={semester}
               onClick={() => setSelectedSemester(semester)}
-              className={`px-4 py-2 rounded-lg transition-colors ${
-                selectedSemester === semester
+              className={`px-4 py-2 rounded-lg transition-colors ${selectedSemester === semester
                   ? "bg-blue-600 text-white"
                   : "bg-gray-200 dark:bg-gray-800 text-gray-700 dark:text-gray-300 hover:bg-gray-300 dark:hover:bg-gray-700"
-              }`}
+                }`}
             >
               {`${semester}º Semestre`}
             </button>
           ))}
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+        <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 sm:gap-6">
           {filteredBooks.map((book, index) => (
             <BookCard key={index} book={book} />
           ))}
